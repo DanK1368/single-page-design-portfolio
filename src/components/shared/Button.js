@@ -2,7 +2,7 @@ export const Button = ({ bgColor }) => {
   return (
     <button
       className={`${bgColor} btn border-none  text-neutral rounded-full text-xs 
-      px-6 hover:bg-primary hover:border-none`}
+      px-6 hover:bg-primary hover:border-none transition-all ease-in delay-[50]`}
     >
       Free Consultation
     </button>
