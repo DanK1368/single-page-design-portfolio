@@ -3,6 +3,8 @@ import Intro from "./components/Intro";
 import Work from "./components/Work";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Work />
         <About />
         <Portfolio />
+        <Cta />
+        <Footer />
       </div>
     </main>
   );
