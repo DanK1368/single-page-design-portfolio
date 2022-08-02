@@ -8,7 +8,7 @@ const About = () => {
       <h3 className=" text-2xl font-semibold w-[90%] text-base-100 ">
         I’m Amy, and I’d love to work on your next project
       </h3>
-      <p className=" text-neutral-content leading-7 ">
+      <p className=" text-md font-light text-neutral-content leading-6 ">
         I love working with others to create beautiful design solutions. I’ve
         designed everything from brand illustrations to complete mobile apps.
         I’m also handy with a camera!
