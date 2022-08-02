@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className=" min-h-screen bg-neutral">
-      <div className=" w-[90%] m-auto ">
+    <main className=" min-h-screen bg-neutral overflow-x-hidden ">
+      <div className=" w-[90%] m-auto max-w-[1111px] relative  ">
         <Header />
         <Intro />
         <Work />

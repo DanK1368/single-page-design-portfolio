@@ -39,20 +39,22 @@ const Portfolio = () => {
 
   return (
     <section className=" flex flex-col justify-center items-center gap-6 mt-14  ">
-      <h4 className=" text-2xl text-base-100 font-medium ">My Work</h4>
-      <div className=" flex justify-center items-center relative ">
+      <h4 className=" text-2xl text-base-100 font-medium lg:text-4xl">
+        My Work
+      </h4>
+      <div className=" flex justify-center items-center max-h-[400px] ">
         <img
-          className=" rounded-lg w-[80%] absolute left-[-75%] "
+          className=" object-cover rounded-lg w-[80%] absolute left-[-75%] md:max-h-[350px] md:left-[-70%] lg:left-[-620px] "
           src={portfolio[prevImg].image}
           alt=""
         />
         <img
-          className=" rounded-lg w-[80%] m-auto "
+          className=" rounded-lg w-[80%] m-auto md:w-full md:max-h-[350px] "
           src={portfolio[index].image}
           alt=""
         />
         <img
-          className=" rounded-lg w-[80%] absolute right-[-75%] "
+          className="object-cover rounded-lg w-[80%] absolute right-[-75%]  md:max-h-[350px] md:right-[-70%] lg:right-[-620px]  "
           src={portfolio[nextImg].image}
           alt=""
         />

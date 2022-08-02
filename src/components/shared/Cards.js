@@ -1,7 +1,7 @@
 const Cards = ({ text, graphic, layout }) => {
   return (
     <div
-      className={` ${layout} w-full p-5 rounded-md text-neutral text-2xl font-medium flex flex-col justify-between`}
+      className={`  p-5 rounded-md text-neutral text-2xl font-medium flex flex-col justify-between ${layout}`}
     >
       <div className="flex justify-end">
         <img src={graphic} alt="" />

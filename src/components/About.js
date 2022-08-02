@@ -3,17 +3,23 @@ import profilePic from "../assets/image-amy.webp";
 
 const About = () => {
   return (
-    <section className="flex flex-col justify-center items-center gap-6 text-center">
-      <img className=" w-[90%] " src={profilePic} alt="" />
-      <h3 className=" text-2xl font-semibold w-[90%] text-base-100 ">
-        I’m Amy, and I’d love to work on your next project
-      </h3>
-      <p className=" text-md font-light text-neutral-content leading-6 ">
-        I love working with others to create beautiful design solutions. I’ve
-        designed everything from brand illustrations to complete mobile apps.
-        I’m also handy with a camera!
-      </p>
-      <Button bgColor="bg-secondary" />
+    <section className="flex flex-col justify-center items-center gap-6 text-center md:flex-row md:my-20">
+      <img
+        className=" w-[90%] max-w-[450px] md:translate-x-[-20%] md:flex-1 md:w-[500px] "
+        src={profilePic}
+        alt=""
+      />
+      <div className=" flex flex-col items-center justify-center gap-6 md:items-start  ">
+        <h3 className=" text-2xl font-semibold text-base-100 md:text-left md:w-full md:text-4xl ">
+          I’m Amy, and I’d love to work on your next project
+        </h3>
+        <p className=" text-neutral-content leading-7 md:text-left ">
+          I love working with others to create beautiful design solutions. I’ve
+          designed everything from brand illustrations to complete mobile apps.
+          I’m also handy with a camera!
+        </p>
+        <Button bgColor="bg-secondary hover:bg-accent" />
+      </div>
     </section>
   );
 };
