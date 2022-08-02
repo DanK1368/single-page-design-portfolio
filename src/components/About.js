@@ -8,7 +8,7 @@ const About = () => {
     <InView threshold={0.25}>
       {({ ref, inView }) => (
         <motion.section
-          className=" min-h-screen flex flex-col justify-center items-center gap-6 text-center md:flex-row md:my-20 lg:min-h-[70vh]"
+          className=" min-h-screen flex flex-col justify-center items-center gap-6 text-center md:flex-row md:min-h-[60vh] lg:min-h-[70vh]"
           ref={ref}
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
